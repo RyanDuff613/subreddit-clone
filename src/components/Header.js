@@ -3,7 +3,8 @@ import React from 'react';
 function Header(){
   return (
     <React.Fragment>
-    <h3>welcome to my subbredit clone</h3>
+    <h3>subredit clone</h3>
+    <p>i'm the header</p>
     <hr />
     </React.Fragment>
   );

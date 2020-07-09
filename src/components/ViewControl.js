@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import PostList from './PostList'
+
 
 class ViewControl extends React.Component {
 
@@ -8,7 +10,9 @@ class ViewControl extends React.Component {
 }
 
   render(){
-    return null
+    return (
+      <PostList />
+    )
   }
 
 

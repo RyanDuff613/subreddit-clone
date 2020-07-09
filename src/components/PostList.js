@@ -1,10 +1,14 @@
 import React from 'react';
-import Ticket from './Ticket';
+import Post from './Post';
 
-function TicketList(){
+function PostList(){
   return (
-    <Ticket />
+    <React.Fragment>
+      <p>i'm the post list</p>
+      <hr />
+      <Post />
+    </React.Fragment>
   );
 }
 
-export default TicketList;
+export default PostList;
